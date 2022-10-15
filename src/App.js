@@ -21,14 +21,8 @@ export default function App() {
       </div>
     
       <section className='sec-1'>
-<<<<<<< HEAD
         <img className='mobile-img' src={mobile} alt="mobile" />
         <div className='img-container'></div>
-
-=======
-        <div className='mobile-img'>
-          <img src={mobile} alt="mobile" width="360px" />
-        </div>
         <div class="text">
           <h1>The app that will<br></br>
           find your parking<br></br>
@@ -40,7 +34,6 @@ export default function App() {
           bring convenience in parking and will help you<br></br>
           start your parking business.</p>
           </div>
->>>>>>> 91f3bde445e5eb46aa005266014a99f009af6bfd
       </section>
 
       <section className='sec-2'>

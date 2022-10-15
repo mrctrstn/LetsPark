@@ -5,7 +5,6 @@ import apk from "./LetsPark.apk"
 import mobile from "./img/Mobile.png"
 
 
-
 export default function App() {
   return (
     <>
@@ -19,9 +18,9 @@ export default function App() {
       </div>
     
       <section className='sec-1'>
-        <div className='mobile-img'>
-          <img src={mobile} alt="mobile" width="350px" />
-        </div>
+        <img className='mobile-img' src={mobile} alt="mobile" />
+        <div className='img-container'></div>
+
       </section>
 
       <section className='sec-2'>

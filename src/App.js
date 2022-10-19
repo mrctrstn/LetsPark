@@ -72,9 +72,11 @@ export default function App() {
           <br></br>
           <p>Start by downloading our app and register with few and<br></br>
           easy steps. Try and experience secured and seamless<br></br>
-          parking in Valenzuela using Let's Park!</p>
-          </div>
+          parking in Valenzuela using Let's Park!
           <button><a href={apk} download>Download</a></button>
+          </p>
+        </div>
+          
       </section>
 
       <section className='sec-4'>
@@ -84,6 +86,28 @@ export default function App() {
       </section>
 
       <footer>
+        <div className='con-1'>
+          <div className='column1'>
+            <img src={logo} alt="logo" width="200px"/>
+            <h1>Let's Park!</h1>
+          </div>
+          <div className='column2'>
+            <ul>
+              <li><a href='/'>Privacy Policy</a></li>
+              <li><a href='/'>Terms and Conditions</a></li>
+              <li><a href='/'>Guidelines</a></li>
+              <button><a href={apk} download>Download</a></button>
+            </ul>
+          </div>
+        </div>
+        <div className='con-2'>
+          <div>
+            <p>Let's Park is an app developed by four students from Pamantasan ng Lungsod ng Valenzuela</p>
+          </div>
+          <div>
+            <p>&#169; Copyright Let's Park! 2022</p>
+          </div>
+        </div>
       </footer>
     </>
   );

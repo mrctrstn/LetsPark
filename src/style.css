@@ -55,7 +55,7 @@
 /* --------------------------------------- */
 .sec-1{
     display: flex;
-    height: 75vh;
+    height: 80vh;
     border-bottom: #004797 1px solid ;
     background-image: url("./img/valmap.png");
     background-size: 100%;
@@ -79,7 +79,7 @@
     color: white;
 }
 .sec-1 h1{
-    font-size: 450%;
+    font-size: 380%;
     
 }
 .sec-1 p{
@@ -108,8 +108,7 @@
     background: #f3f6f9;
     height: auto;
     width: 100%;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
+    padding: 12% 0px;
 }
 .row{
     display: flex;
@@ -123,57 +122,54 @@
     text-align: center;
 }
 
+.sec-2 h1{
+    font-size: 1.7rem;
+    color: #004797;
+}
 .sec-2 p{
     display: block;
     text-align: center;
-    line-height: .5cm;
+    line-height: .7cm;
+    font-size: 1.2rem;
+    color: #004797;
 }
 /* --------------------------------------- */
 .sec-3{
     display: flex;
     height: 70vh;
     border-bottom: #004797 2px solid ;
-    
-}
-.sec-3 .logo-img{
-    position: absolute;
-    right: 8%;
-    padding-top: 8%;
-    float: right;
-    
+    background: #2673c9;
 }
 .sec-3 .text{
     text-align: justify;
     text-justify: inter-word;
-    margin-left: 15%;
-    padding-top: 10%;
-    color: black;
+    color: #fff;
 }
 .sec-3 h1{
-    font-size: 200%;
+    font-size: 300%;
 }
 .sec-3 p{
-    font-size: 100%;
-    line-height: .7cm;
+    font-size: 150%;
+    line-height: .8cm;
 }
 .sec-3 button{
     display: flex;
     cursor: pointer;
+    margin-top: 1.5rem;
     width: 175px;
     height: 52px;
-    background: #338bf0;
+    background: #fff;
     box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
     transition: .5s ease;
     border-radius: 25px;
 }
 .sec-3 button:hover{
-    background: #004797;
-    width: 180px;
+    background: rgb(227, 227, 227);
 }
 .sec-3 button a{
     display: flex;
     justify-content: center;
-    color:#fff;
+    color: #2673c9;
     text-decoration: none;
     font-size: 1.3rem;
     padding: .9rem 2.6rem;
@@ -182,8 +178,55 @@
 /* --------------------------------------- */
 .sec-4{
     display: flex;
-    height: 100vh;
-    border-bottom: #004797 2px solid ;
+    height: 110vh;
+    justify-content: center;
+    flex-direction: column;
+}
+.sec-4 h1{
+    font-size: 3.2rem;
+    color: #004797;
+    text-align: center;
+    margin: 2rem;
+}
+.sec-4 p{
+    text-align: center;
+    color: #004797;
+    font-size: 140%;
+    line-height: .8cm;
+}
+.sec-4 .label{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15%;
+}
+.label .con{
+    /* background-color: #004797; */
+    display: flex;
+    margin-top: 2rem;
+    height: 2rem;
+    width: 20rem;
+    justify-content: center;
+    align-items: center;
+    color: #004797;
+}
+
+.sec-4 .container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 15%;
+}
+.col{
+    display: flex;
+    height: 26rem;
+    width: 20rem;
+    border-radius: .5rem;
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.18);
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.col img{
+    object-fit: cover;
 }
 /* --------------------------------------- */
 .sec-5{

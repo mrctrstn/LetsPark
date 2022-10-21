@@ -121,9 +121,9 @@ export default function App() {
 
       <section className='sec-5'>
         <div className='left'>
-          <img className='img-1' src={inprog} alt="1" width="230px"/>
-          <img className='img-2' src={upcoming} alt="2" width="230px"/>
-          <img className='img-3' src={history} alt="3" width="230px"/>
+          <img className='img-1' src={inprog} alt="1" width="210px"/>
+          <img className='img-2' src={upcoming} alt="2" width="210px"/>
+          <img className='img-3' src={history} alt="3" width="210px"/>
         </div>
         <div className='right'>
           <h1>Monitor In Progress and Upcoming Parking and Keep Track of Your Parking History</h1>

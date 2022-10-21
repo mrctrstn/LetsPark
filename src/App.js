@@ -9,6 +9,9 @@ import rent from "./img/Rent.png"
 import register from "./img/register.png"
 import customer from "./img/customer.png"
 import success from "./img/success.png"
+import inprog from "./img/in-progress.jpg"
+import upcoming from "./img/upcoming.jpg"
+import history from "./img/history.jpg"
 
 
 export default function App() {
@@ -82,9 +85,7 @@ export default function App() {
             <img src={logo} alt="logo" width="450px"/>
           </div>
         </div>
-
       </section>
-
 
       <section className='sec-4'>
         <h1>Make extra income by renting <br/>out your vacant space</h1>
@@ -119,6 +120,15 @@ export default function App() {
       </section>
 
       <section className='sec-5'>
+        <div className='left'>
+          <img className='img-1' src={inprog} alt="1" width="230px"/>
+          <img className='img-2' src={upcoming} alt="2" width="230px"/>
+          <img className='img-3' src={history} alt="3" width="230px"/>
+        </div>
+        <div className='right'>
+          <h1>Monitor In Progress and Upcoming Parking and Keep Track of Your Parking History</h1>
+          <p> Let's Park keeps you up to date about your in progress and upcoming parking and provides an easy view for your parking history.</p>
+        </div>
       </section>
 
       <footer>
